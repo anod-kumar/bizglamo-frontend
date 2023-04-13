@@ -1,0 +1,10 @@
+export const DETAILS_REQUEST = "DETAILS_REQUEST";
+export const DETAILS_SUCCESS = "DETAILS_SUCCESS";
+export const DETAILS_FAIL = "DETAILS_FAIL";
+export const DETAILS_RESET = "DETAILS_RESET";
+
+export const ALL_BLOG_REQUEST = "ALL_BLOG_REQUEST";
+export const ALL_BLOG_SUCCESS = "ALL_BLOG_SUCCESS";
+export const ALL_BLOG_FAIL =    "ALL_BLOG_FAIL";
+
+export const CLEAR_ERRORS = "CLEAR_ERRORS";

@@ -1,0 +1,174 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'poppins', sans-serif;
+}
+
+body {
+  background-color: black;
+  color: #989898;
+}
+
+.row {
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 3%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.facilities {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.facilities h2 {
+  font-size: 36px;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.facilities-col {
+  flex-basis: 20%;
+  background-color: #2e2e2e;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  margin-left: 1.5%;
+  margin-right: 1%;
+  text-align: left;
+  padding-bottom: 8px;
+}
+
+.facilities-col img {
+  width: 100%;
+  height: 13rem;
+  border-radius: 10px 10px 0 0;
+}
+
+.facilities-col .faci_col {
+  padding: 0.8rem;
+}
+
+.facilities-col .faci_col p {
+  padding: 0;
+  font-size: 15.5px;
+
+}
+
+.facilities-col .faci_col h2 {
+  font-size: 22px;
+  margin-top: 3px;
+  margin-bottom: 15px;
+}
+
+.facilities-col .faci_col p span a {
+  color: white;
+  font-size: 15.5px;
+
+}
+
+.btnn1 {
+  width: 6rem;
+
+  padding: 0.3em;
+  background-color: #39b14a;
+  outline: none;
+  border: none;
+  margin: auto;
+  margin-top: 1em;
+}
+
+.btnn1 a {
+  color: white;
+  font-weight: 530;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.btnn1 a:hover {
+  text-decoration: underline;
+}
+
+#btnn2 {
+  margin-top: 2rem;
+}
+
+#row6 {
+  display: block;
+  margin-top: 0;
+}
+
+#row7 {
+  display: block;
+  width: 80%;
+}
+
+#row7 .bcont {
+  margin-bottom: 3%;
+  background-color: #313030;
+  text-align: left;
+  padding: 2% 1% 2% 1%;
+  border-radius: 15px;
+}
+
+#row7 .bcont .bcont1 {
+  display: flex;
+  margin-bottom: 0.5%;
+  padding-bottom: 0.5%;
+  border-bottom: 0.5px solid white;
+}
+
+#row7 .bcont .bcont1 .bcont11 img {
+  width: 50px;
+  border-radius: 50%;
+  height: 50px;
+}
+
+#row7 .bcont .bcont1 .bcont12 {
+  margin-left: 8px;
+  padding-top: 3px;
+}
+
+#row7 .bcont .bcont1 .bcont12 h2 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+#row7 .bcont .bcont1 .bcont12 p {
+  font-size: 12px;
+}
+#faci7{
+  padding-top: 0;
+}
+
+@media(max-width: 700px) {
+  .facilities-col {
+    flex-basis: 100%;
+    margin-bottom: 10%;
+  }
+
+  .facilities h2 {
+    font-size: 20px;
+  }
+
+  .row {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  #row7 {
+    display: block;
+    width: 90%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  #row7 .bcont {
+    margin-bottom: 5%;
+    padding: 4% 2% 4% 2%;
+  }
+  #faci7{
+    padding-top: 50px;
+  }
+}
